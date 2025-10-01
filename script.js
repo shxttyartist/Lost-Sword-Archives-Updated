@@ -205,9 +205,9 @@ const shopSlots = [
 
 const shopItems = [
   { id: 'item1A', price: 1, lockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box.webp', unlockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box-unlocked.webp', fullSrc: 'sprites/shop/sellables/the-silk-road-demon.png' }, 
-  { id: 'item2A', price: 1, lockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box.webp', unlockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box-unlocked.webp', fullSrc: 'sprites/shop/sellables/the-silk-road-demon.png' },
-  { id: 'item3A', price: 1, lockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box.webp', unlockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box-unlocked.webp', fullSrc: 'sprites/shop/sellables/the-silk-road-demon.png' },
-  { id: 'item4A', price: 1, lockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box.webp', unlockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box-unlocked.webp', fullSrc: 'sprites/shop/sellables/the-silk-road-demon.png' }
+  { id: 'item2A', price: 1, lockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box.webp', unlockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box-unlocked.webp', fullSrc: 'sprites/shop/sellables/balan-balan-spin.gif' },
+  { id: 'item3A', price: 1, lockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box.webp', unlockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box-unlocked.webp', fullSrc: 'sprites/shop/sellables/butterfly-girl-cat.png' },
+  { id: 'item4A', price: 1, lockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box.webp', unlockedSrc: 'sprites/shop/webp-shop-sprites/cardboard-box-unlocked.webp', fullSrc: 'sprites/shop/sellables/sunbeam.png' }
 ];
 
 // Clean up previous week's owned item IDs
@@ -273,28 +273,24 @@ renderShop(shopItems.slice(2,4), shopRightContainer);
 // In script.js
 const imageModal = document.getElementById('image-modal');
 const modalImg = document.getElementById('modal-img');
-const modalDownloadBtn = document.getElementById('modal-download-btn');
 
 // Show modal on image click
 document.body.addEventListener('click', function(e) {
   if (e.target.classList.contains('shop-unlocked-img')) {
     const fullSrc = e.target.getAttribute('data-fullsrc');
     modalImg.src = fullSrc;
-    modalDownloadBtn.setAttribute('data-download', fullSrc);
+    modalImg.setAttribute('data-fullsrc', fullSrc); // for reference
     imageModal.hidden = false;
     e.preventDefault();
   }
 });
 
-// Direct download logic for modal button (this is your fix!)
-modalDownloadBtn.addEventListener('click', function() {
-  const url = modalDownloadBtn.getAttribute('data-download');
-  const link = document.createElement('a');
-  link.href = url;
-  link.download = ''; // Optionally set a filename
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
+// NEW: Clicking modal image opens fullSrc in new tab
+modalImg.addEventListener('click', function() {
+  const fullSrc = modalImg.getAttribute('data-fullsrc');
+  if (fullSrc) {
+    window.open(fullSrc, '_blank');
+  }
 });
 
 // Close modal logic
