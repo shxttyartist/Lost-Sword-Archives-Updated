@@ -1,0 +1,67 @@
+File paths for assets (turn into relative paths)
+
+(WEBP)
+ **interactable images**
+**default** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\webp-versions\balan-sprite.webp"
+
+**brief change when clicked** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\webp-versions\balan-sprite-click.webp"
+
+**100 click milestone** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\webp-versions\balan-sprite-100.webp"
+**500 click milestone** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\webp-versions\balan-sprite-500.webp"
+**1000 click milestone** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\webp-versions\balan-sprite-1000.webp"
+**3500 click milestone** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\webp-versions\balan-sprite-3500.webp"
+**7000 click milestone** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\webp-versions\balan-sprite-7000.webp"
+
+(PNG)
+ **interactable images**
+**default** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\png-versions\balan-sprite.png"
+
+**brief change when clicked** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\png-versions\balan-sprite-click.png"
+
+**100 click milestone** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\png-versions\balan-sprite-100.png"
+**500 click milestone** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\png-versions\balan-sprite-500.png"
+**1000 click milestone** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\png-versions\balan-sprite-1000.png"
+**3500 click milestone** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\png-versions\balan-sprite-3500.png"
+**7000 click milestone** - "C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\balan-balan-clicker\png-versions\balan-sprite-7000.png"
+
+**shop images 'unlocked' and 'locked'**
+"C:\Users\User\OneDrive\Desktop\lost sword websites\sprites\shop\cardboard-box.png"
+
+
+
+**comic pages**
+**page 1** - "C:\Users\User\OneDrive\Desktop\lost sword websites\side-quest-balan\first-part\png-versions\lost-sword-comic-page-1.png"
+**page 2** - "C:\Users\User\OneDrive\Desktop\lost sword websites\side-quest-balan\first-part\png-versions\lost-sword-comic-page-2.png"
+**page 3** - "C:\Users\User\OneDrive\Desktop\lost sword websites\side-quest-balan\first-part\png-versions\lost-sword-comic-page-3.png"
+**page 4** - "C:\Users\User\OneDrive\Desktop\lost sword websites\side-quest-balan\first-part\png-versions\lost-sword-comic-page-4.png"
+**page 5** - "C:\Users\User\OneDrive\Desktop\lost sword websites\side-quest-balan\first-part\png-versions\lost-sword-comic-page-5.png"
+
+**shop assets**
+**locked image**
+sprites/shop/webp-shop-sprites/cardboard-box.webp
+**unlocked image**
+sprites/shop/webp-shop-sprites/cardboard-box-unlocked.webp
+
+
+
+**interactable images audio files**
+**randomly shuffled**
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-ah-one.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-ah-three.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-ah-two.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-eh-one.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-eh-three.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-eh-two.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-oh-one.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-oh-three.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-oh-two.mp3"
+
+**played every 50 clicks in random order, overwrites 'randomly shuffled'**
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-mmn-one.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-mmn-three.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-mmn-two.mp3"
+
+**played every milestone in random order, overwrites all**
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-balan-one.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-balan-two.mp3"
+"C:\Users\User\OneDrive\Desktop\lost sword websites\voice-acting\balan-balan\clkr-balan-three.mp3"
